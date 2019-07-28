@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DialogueTree", "DialogueTree\DialogueTree.csproj", "{CA3D2F76-CFE0-4C7B-84E5-921C52B652C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph", "..\Graph\Graph.csproj", "{EE1CB304-E24B-4D29-9C5F-E9ABE88E26C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CA3D2F76-CFE0-4C7B-84E5-921C52B652C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA3D2F76-CFE0-4C7B-84E5-921C52B652C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA3D2F76-CFE0-4C7B-84E5-921C52B652C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE1CB304-E24B-4D29-9C5F-E9ABE88E26C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE1CB304-E24B-4D29-9C5F-E9ABE88E26C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE1CB304-E24B-4D29-9C5F-E9ABE88E26C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE1CB304-E24B-4D29-9C5F-E9ABE88E26C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
