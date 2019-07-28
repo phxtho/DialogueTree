@@ -1,21 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using Graph;
 
 namespace DialogueTree
 {
-    public class DialogueNode
+    public class DialogueNode : Vertex<string>
     {
-        public int nodeId;
-
-        public string _text;
-
-        //public List<T> options;
 
         DialogueNode() { }
 
         DialogueNode(string text)
         {
-            _text = text;
+            data = text;
         }
     }
 }
